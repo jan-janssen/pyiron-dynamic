@@ -7,5 +7,5 @@ mv .binder/.pyiron .
 # import dataset
 bash .github/ci_support/import_dataset.sh
 
-#!/bin/bash
+# install pyiron_base from Github
 pip install git+https://github.com/pyiron/pyiron_base.git@remove_dynamic --no-deps --no-build-isolation
